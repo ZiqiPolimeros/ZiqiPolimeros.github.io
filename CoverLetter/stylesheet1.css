@@ -89,8 +89,7 @@ body {
    border-width: 0px 0px 2px 0px;
    box-sizing: border-box;
    margin: 0px 60px 0px 60px;
-   left:10em;
-   padding: 10px;
+   <!--left:10em;-->
 }
 .position-text{
   display: inline-block;
