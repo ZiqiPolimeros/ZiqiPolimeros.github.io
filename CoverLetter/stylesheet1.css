@@ -14,13 +14,13 @@ body {
   margin: auto;
   box-shadow: 10px 10px 5px grey;
   background-color: white;
-  height: 1600px;
+
   max-width: 950px;
   box-sizing: border-box;
 }
 
 
-/**Left side content CSS**/
+/**first part**/
 
 
 .name {
@@ -52,7 +52,7 @@ body {
 .cylinder {
   max-width: 90%;
   min-height: auto;
-  margin: auto; /*1px 15px 15px 80px;*?/
+  margin: auto; /*1px 15px 15px 80px;*/
   /* border-radius: horziontal values / vertical values */
   border-radius: 50px 50px / 100px 100px;
   background: #bee3ff;
@@ -89,13 +89,13 @@ body {
 .position{
    border-width: 0px 0px 2px 0px;
    box-sizing: border-box;
-   margin: 15px;
-  left:10em;
+   margin: 0px 60px 0px 60px;
+   left:10em;
    padding: 10px;
 }
 .position-text{
   display: inline-block;
-  line-height: 2.0;
+  line-height: 1.5;
   text-align: left;
   font-size: 20px;
   color: #151B54;
@@ -124,7 +124,7 @@ body {
 .closing{
    border-width: 0px 0px 2px 0px;
    box-sizing: border-box;
-   margin: 15px;
+   margin: 0px 60px 0px 60px;
    padding: 10px;
 }
 .closing-text{
