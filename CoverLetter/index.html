@@ -69,9 +69,9 @@
 
 
 .cylinder {
-  width: 800px;
-  height: 100px;
-  margin: 1px 15px 15px 80px;
+  max-width: %90;
+  min-height: auto;
+  margin: auto; /*1px 15px 15px 80px;*?/
   /* border-radius: horziontal values / vertical values */
   border-radius: 50px 50px / 100px 100px;
   background: #bee3ff;
@@ -84,6 +84,16 @@
    box-sizing: border-box;
    margin: 10px;
    padding: 10px;
+}
+.contact-text1 {
+  line-height: 2.0;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: bold;
+  color: #151B54;
+  margin: 15px 15px 15px 15px;
+  box-sizing: border-box;
 }
 
 .contact-text {
@@ -169,15 +179,12 @@
   
   <div class = "cylinder">  
    <div class = "contact" >
-     <div class = "contact-text">  
-       <u><b>Phone: </b></u>332-259-3674   &nbsp;&nbsp;
-       | &nbsp;<b><u>Email: ziqi.polimeros@baruchmail.cuny.edu &nbsp;&nbsp; 
-       | &nbsp; <b><u>Address: </u></b>
-      <a href="https://www.google.com/maps/place/New+York,+NY+10016">New York, NY, 10016 </a>
-      <br><a href="https://www.linkedin.com/in/ziqi-polimeros-3457141b5"><b>LinkedIn</b>  </a>&nbsp;&nbsp; 
-      | &nbsp;<a href="https://github.com/ZiqiPolimeros?tab=repositories"><b>GitHub </b> </a> &nbsp;&nbsp; 
-      | &nbsp;<a href="https://ziqipolimeros.github.io/"><b>My Homepage </b> </a>
-      </div>
+     <div class = "contact-text1"> Phone: </div> <div class = "contact-text">332-259-3674  |</div>
+     <div class = "contact-text1"> Email: </div> <div class = "contact-text">ziqi.polimeros@baruchmail.cuny.edu  |</div>    
+     <div class = "contact-text1"> Address: </div> <div class = "contact-text"> <a href="https://www.google.com/maps/place/New+York,+NY+10016">New York, NY, 10016 </a> </div> 
+      <br><div class = "contact-text1"><a href="https://www.linkedin.com/in/ziqi-polimeros-3457141b5">LinkedIn  |</a></div>
+      <div class = "contact-text1"><a href="https://github.com/ZiqiPolimeros?tab=repositories">GitHub  |</a> </div>
+      <div class = "contact-text1"><a href="https://ziqipolimeros.github.io/">My Homepage  </a></div>         
   </div>
   
 <div class = "position">
