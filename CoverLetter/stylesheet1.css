@@ -120,7 +120,9 @@ body {
 }
 
 .closing{
-   border-width: 0px 0px 2px 0px;
+   border-style: solid;
+   border-color: white;
+   border-width: 0px 0px 100px 0px;
    box-sizing: border-box;
    margin: 0px 60px 0px 60px;
    padding: 10px;
