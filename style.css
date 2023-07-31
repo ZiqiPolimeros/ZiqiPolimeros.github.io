@@ -1,0 +1,268 @@
+
+body {
+  background: #e1e1ea;
+  font-family: 'Roboto';
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+/**Left side CSS**/
+.left-box{
+  float: left;
+  box-shadow: 10px 10px 5px grey;
+  background-color: #e5f4ff;
+  height: 810px;
+  width: 300px;
+  box-sizing: border-box;
+  margin: 15px 15px 15px 15px;
+}
+
+/**Left side content CSS**/
+.top-left{
+  position: relative;
+
+  border-width: 0px 0px 3px 0px;
+  box-sizing: border-box;
+  height: 25%;
+  margin: 0px;
+}
+
+.name {
+    position: absolute;
+    font-size: 40px;
+    color: #151B54;
+    bottom: 8px;
+    left: 16px;
+    box-sizing: border-box;
+}
+
+img { 
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.objective {
+   border-width: 0px 0px 2px 0px ;
+   margin: 15px;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+.objective-img{
+  float: left;
+  border: solid;
+  border-width: 3px;
+  box-sizing: border-box;
+  width: 30px;
+  height: auto;
+}
+
+.objective-text{
+  display: inline-block;
+  line-height: 2.0;
+  text-align: left;
+  color: #151B54;
+  box-sizing: border-box;
+  margin: 15px 15px 15px 15px;
+}
+
+.phone{
+
+   border-width: 0px 0px 2px 0px;
+   box-sizing: border-box;
+   margin: 15px;
+   padding: 10px;
+}
+
+.phone-text {
+  display: inline-block;
+  line-height: 2.0;
+  text-align: left;
+  font-size: 20px;
+  color: #151B54;
+  margin: 15px 15px 15px 15px;
+  box-sizing: border-box;
+}
+
+.email{
+   border-style: solid;
+   border-width: 0px 0px 0px 0px;
+   box-sizing: border-box;
+   margin: 15px;
+   padding: 10px;
+}
+
+.email-text {
+  display: inline-block;
+  line-height: 2.0;
+  text-align: left;
+  font-size: 15px;
+  color: #151B54;
+  margin: 15px 15px 15px 15px;
+  box-sizing: border-box;
+}
+/**work experience box**/
+.work-experience {
+  float: left;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  height: 250px;
+  width: 840px;
+  margin: 15px 15px 15px 15px;
+  box-sizing: border-box;
+}
+
+.work-img {
+  float: left;
+  background-color: #151B54;
+  height: auto;
+  width: 50px;
+  margin: 25px 30px 100% 30px;
+  box-sizing: border-box;
+}
+
+.job-box{
+  float: left;
+  border-width: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  margin: 0px 10px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  width: 350px;
+  height: auto;
+}
+
+?
+/**.job-box:hover {
+  background-color: gray;
+}**/
+
+.job-title {
+  font-weight: bold;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.job-date{
+  color: #0000FF;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+
+.job-description{
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+/**Education box**/
+.education {
+  float: left;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  box-sizing: border-box;
+  height: 250px;
+  width: 840px;
+  margin: 15px 15px 15px 15px;
+}
+
+/**project box**/
+.project {
+  float: left;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  box-sizing: border-box;
+  height: 250px;
+  width: 460px;
+  margin: 15px 15px 15px 15px;
+}
+
+/**Skills box**/
+.skills {
+  float: left;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  box-sizing: border-box;
+  height: 250px;
+  width: 350px;
+  margin: 15px 15px 15px 15px;
+}
+
+ {
+  list-style-type: none;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 20px 20px 45px;
+}
+
+li.l1 {
+  border: solid;
+  border-width: 1px;
+  background-color: #00BFFF;
+  margin: 10px 10px 10px 0px;
+}
+
+li.l2 {
+  border: solid;
+  border-width: 1px;
+  background-color: #00BFFF;
+  margin: 10px 35px 10px 0px;
+}
+
+li.l3 {
+  border: solid;
+  border-width: 1px;
+  background-color: #00BFFF;
+  margin: 10px 50px 10px 0px;
+}
+
+li.l4 {
+  border: solid;
+  border-width: 1px;
+  background-color: #00BFFF;
+  margin: 10px 90px 10px 0px;
+ 
+}
+li.l5 {
+  border: solid;
+  border-width: 1px;
+  background-color: #00BFFF;
+  margin: 10px 10px 10px 0px;
+
+}
+
+
+/** Tooltip  **/
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  
+  visibility: hidden;
+  width: 250px;
+  background-color: #191970;
+  color: #fff;
+  text-align: left;
+  padding: 5px 0;
+  border-radius: 6px;
+  
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
