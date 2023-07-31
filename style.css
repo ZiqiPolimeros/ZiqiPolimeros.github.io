@@ -68,21 +68,16 @@ img {
 }
 
 .phone{
-
    border-width: 0px 0px 2px 0px;
    box-sizing: border-box;
    margin: 15px;
    padding: 10px;
 }
 
-.phone-text {
-  display: inline-block;
-  line-height: 2.0;
-  text-align: left;
-  font-size: 20px;
-  color: #151B54;
-  margin: 15px 15px 15px 15px;
-  box-sizing: border-box;
+
+.split{
+  padding-left=30em;
+  padding-right=30em;
 }
 
 .email{
