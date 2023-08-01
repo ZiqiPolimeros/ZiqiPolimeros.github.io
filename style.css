@@ -1,4 +1,3 @@
-
 body {
   background: #e1e1ea;
   font-family: 'Roboto';
@@ -6,26 +5,80 @@ body {
   box-sizing: border-box;
   padding: 10px;
 }
-/**Left side CSS**/
-.left-box{
+
+/**resume **/
+.resume{
   float: left;
+  float:right;
+  display: grid;
+  position: absolute;
+  grid-template-areas:
+    "a a  a"
+    "b b  c"
+    "d d  e";
   box-shadow: 10px 10px 5px grey;
-  background-color: #e5f4ff;
-  height: 810px;
-  width: 300px;
+  left:0px;
+  right: 0px;
+  background-color: #fffde5;
+  height: 800px;
+  width: 1200px;
+  box-sizing: border-box;
+  margin: 15px auto 15px auto;
+}
+
+/**Left side CSS**/
+.top-box{
+  float: left;
+  grid-area: a;
+  box-shadow: 10px 10px 5px grey;
+  background-image: linear-gradient(319deg, #e5f4ff 0%, #99d4ff 37%, #e5f4ff 100%);
+  height: 200px;
+  width: 97%;
   box-sizing: border-box;
   margin: 15px 15px 15px 15px;
 }
 
-/**Left side content CSS**/
-.top-left{
-  position: relative;
 
-  border-width: 0px 0px 3px 0px;
+
+
+/**Left side content CSS**/
+
+.top-box-left{
+  float: left;
+  border-width: 0px 0px 0px 0px;
   box-sizing: border-box;
-  height: 25%;
-  margin: 0px;
+  margin: 0px 10px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  width: 180px;
+  height: auto;
 }
+
+img { 
+    width:30px;
+    height:30px;
+    box-sizing: border-box;
+    border-radius: 50px 50px / 100px 100px;
+    box-shadow: 1px 10px 5px grey;
+    margin: 15px 15px 15px 15px;
+}
+
+.my-img { 
+    width:120px;
+    height:150px;
+    box-sizing: border-box;
+    border-radius: 50px 50px / 100px 100px;
+    box-shadow: 1px 10px 5px grey;
+    margin: 15px 30px 15px 100px;
+}
+
+
+.top-box-center{
+  float: left;
+  margin-left:calc(50% - 400px);
+  height: auto;
+  width:400px;
+}
+ 
 
 .name {
     position: absolute;
@@ -33,12 +86,6 @@ body {
     color: #151B54;
     bottom: 8px;
     left: 16px;
-    box-sizing: border-box;
-}
-
-img { 
-    width: 100%;
-    height: 100%;
     box-sizing: border-box;
 }
 
@@ -61,59 +108,73 @@ img {
 .objective-text{
   display: inline-block;
   line-height: 2.0;
-  text-align: left;
+  text-align: center;
   color: #151B54;
   box-sizing: border-box;
   margin: 15px 15px 15px 15px;
 }
 
-.phone{
+.contact{
+   float:right;
    border-width: 0px 0px 2px 0px;
    box-sizing: border-box;
-   margin: 15px;
    padding: 10px;
+   width: 350px;
+   height: auto;
+   margin: 15px 15px 15px 15px;
 }
-
-
-.split{
-  padding-left=30em;
-  padding-right=30em;
-}
-
-.email{
-   border-style: solid;
-   border-width: 0px 0px 0px 0px;
-   box-sizing: border-box;
-   margin: 15px;
-   padding: 10px;
-}
-
-.email-text {
+.contact-text {
   display: inline-block;
   line-height: 2.0;
   text-align: left;
   font-size: 15px;
+  font-weight: bold;
+  text-decoration-line: underline;  
   color: #151B54;
-  margin: 15px 15px 15px 15px;
-  box-sizing: border-box;
-}
-/**work experience box**/
-.work-experience {
-  float: left;
-  box-shadow: 10px 10px 5px grey;
-  background-color: white;
-  height: 250px;
-  width: 840px;
-  margin: 15px 15px 15px 15px;
+  margin: 0px 15px 0px 15px;
   box-sizing: border-box;
 }
 
+
+
+/**work experience box**/
+.work-experience {
+  float: left;
+  grid-area: b;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  height: 250px;
+  width: 780px;
+  top: 25%;
+  box-sizing: border-box;
+  margin: 15px 15px 15px 15px;
+}
+.work-title{
+  line-height: 2.0;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  color: #151B54;
+  box-sizing: border-box;
+  margin: 15px 15px 15px 80px;
+}
+
+.skills {
+  grid-area: e;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  box-sizing: border-box;
+  height: 250px;
+  width: 350px;
+  margin: 15px 15px 15px 15px;
+}
+
+
 .work-img {
   float: left;
-  background-color: #151B54;
-  height: auto;
-  width: 50px;
-  margin: 25px 30px 100% 30px;
+  height: 2px;
+  width: 2px;
+  margin: 2px 30px 30px 3px;
   box-sizing: border-box;
 }
 
@@ -121,16 +182,12 @@ img {
   float: left;
   border-width: 0px 0px 0px 0px;
   box-sizing: border-box;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 15px 0px 20px;
   padding: 10px 10px 10px 10px;
-  width: 350px;
+  width: 340px;
   height: auto;
 }
 
-?
-/**.job-box:hover {
-  background-color: gray;
-}**/
 
 .job-title {
   font-weight: bold;
@@ -153,33 +210,46 @@ img {
 /**Education box**/
 .education {
   float: left;
+  grid-area: d;
   box-shadow: 10px 10px 5px grey;
   background-color: white;
   box-sizing: border-box;
   height: 250px;
-  width: 840px;
+  width: 780px;
+  top: 52%;
   margin: 15px 15px 15px 15px;
 }
 
 /**project box**/
 .project {
   float: left;
-  box-shadow: 10px 10px 5px grey;
-  background-color: white;
-  box-sizing: border-box;
-  height: 250px;
-  width: 460px;
-  margin: 15px 15px 15px 15px;
-}
-
-/**Skills box**/
-.skills {
-  float: left;
+  grid-area: c;
   box-shadow: 10px 10px 5px grey;
   background-color: white;
   box-sizing: border-box;
   height: 250px;
   width: 350px;
+  margin: 15px 15px 15px 15px;
+}
+.project-box{
+  float: left;
+  border-width: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  margin: 0px 15px 0px 20px;
+  padding: 10px 10px 10px 10px;
+  width: 340px;
+  height: auto;
+}
+
+/**Skills box**/
+.skills {
+  float: right;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  box-sizing: border-box;
+  height: 250px;
+  width: 350px;
+  top: 
   margin: 15px 15px 15px 15px;
 }
 
@@ -229,6 +299,28 @@ li.l5 {
 }
 
 
+.awards{
+   float:right;
+   border-width: 0px 0px 2px 0px;
+   box-sizing: border-box;
+   margin: 15px;
+   padding: 10px;
+   width: 250px;
+   height: auto;
+}
+
+
+.awards-text {
+  display: inline-block;
+  line-height: 2.0;
+  text-align: left;
+  font-size: 15px;
+  color: #151B54;
+  margin: 15px 15px 15px 15px;
+  box-sizing: border-box;
+}
+
+
 /** Tooltip  **/
 
 /* Tooltip container */
@@ -259,5 +351,4 @@ li.l5 {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-
 
